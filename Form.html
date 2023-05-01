@@ -2,31 +2,38 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
         <title>
             Login Page
         </title>
-        <style>
-          .a{
-            background-color: rgb(0, 0, 0);
-          
-          }
-         p.b{text-align: center;
-            font-family:cursive;
-            font-size: 80px;
-            color: rgb(164, 121, 11);
-        
-          }
-          body{
-            background-image:"Downloads\bg.jpg";
-          }
-        </style>
     </head>
     <body>
-      
-        <nav class="a">
-              <p class="b"><img id="ac" src="music sign.jpg"style="height: 250px;">MUSIC FOR EVERYONE</p>
-        </nav>
-           
-        
+      <section>
+        <div class="form-box">
+          <div class="form-value">
+            <form action="">
+              <h2>Login</h2>
+              <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <input type="email" >
+                <label for="">Email</label>
+              </div>
+              <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" >
+                <label for="">Password</label>
+              </div>
+              <div class="forget">
+                <a href="">Forget Password</a>
+              </div>
+              <button>Login in</button>
+              <div class="register">
+                <p>Dont't have an account<a href="">Register</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section> 
     </body>
 </html>
