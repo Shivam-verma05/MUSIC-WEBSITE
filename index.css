@@ -1,6 +1,26 @@
-section{
-    display: ruby;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.a{
+    background-color: aqua;
+    border-radius: 10px;
+    align-items:center;
+  
+}
+.b{
+    margin-top:250px;
+    margin-left:550px;
+    padding-right: 40%;
+}
+.inputbox{
+    margin-left: 10px;
+}
+.register{
+    margin-left: 10px;
+}
+.forget{
+    margin-left: 10px;
+}
+    
