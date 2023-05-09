@@ -5,18 +5,15 @@
     align-items: left;
 }
 .a{
-  margin-left: 300px;
+  margin-left: 500px;
     border-radius: 10px;
     width:400px;
-    backdrop-filter:blur(10px);
+    backdrop-filter:blur(25px);
     
 }
 section{
      align-self: right;
-    height: 500px;
-   
-    
-   
+    height: 500px;   
 }
 .inputbox{
     margin-left: 10px;
@@ -35,7 +32,7 @@ input{
     
 }
 body{
-    background-image: url("High_resolution_wallpaper_background_ID_77701253574.jpg");
+    background-image: url("848515884.jpg");
     background-size: auto;
   
 }
