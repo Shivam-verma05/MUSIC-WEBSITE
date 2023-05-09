@@ -1,0 +1,216 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(223, 18, 148, 0.318),rgba(34, 20, 100, 0.1)), url('hd-wallpaper-3567767.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width:100%;
+    height: 12vh;
+    background: rgba(0,0,0,0.);
+    border-bottom: 1px solid #f9fd00;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;
+    left: 60%;
+  }
+  
+  body {
+    background: #333;
+    font-family: sans-serif;
+  }
+  
+  .login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .login-box form {
+    display: flex;
+    color: white;
+}
+nav .menu{
+    left: 70%;
+    width: 50%;
+    top: 6%;
+    font-size: 26px;
+    color: white;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+}
+nav .menu a{
+    width: 10%;
+    padding: 3px 6px;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+
+ 
+}
+nav .menu a:hover{
+    display: inline;
+    width: 10%;
+    padding: auto;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+}
+nav .menu a:first-child{
+    
+}
+main{
+    width:100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+section{
+
+}
+section h3{
+    font-size: 45px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px yellow;
+}
+section h1{
+    margin:30px 0 20px 0;
+    font-size: 65px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px red;
+    text-transform: uppercase;
+}
+section a.btone{
+    padding: 12px 30px;
+    border-radius: 4px;
+  }
+  
+  .user-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .user-box input:focus ~ label,
+  .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+  }
+  
+  a {
+    display: inline-block;
+    background: #03a9f4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: #f9fd00;
+    color: black;
+}
+.change_content:after{
+    content: "";
+    animation: changetext 10s infinite linear;
+    background: #00b894;
+    text-shadow: 2px 1px 5px black;
+}
+@keyframes changetext {
+    0%{content:"soul to the universe";}
+    20%{content:"wings to the mind";}
+    35%{content:"flight to the imagination";}
+    60%{content:"peace to self";}
+    80%{content:"energy to body";}
+    100%{content:"life to everything";} 
+}
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+  }
+  
+  a:hover {
+    background: #fff;
+    color: #03a9f4;
+  }
+  
+  a span {
+    position: absolute;
+    display: block;
+  }
+  
+  a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03a9f4);
+    animation: animate1 1s linear infinite;
+  }
+  
+  @keyframes animate1 {
+    0% {
+      left: -100%;
+    }
+    50%,
+    100% {
+      left: 100%;
+    }
+  }
+  
+  a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03a9f4);
+  }
